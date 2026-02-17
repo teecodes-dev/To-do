@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-body form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.d-flex{
+    width: 100%;
+
+}
