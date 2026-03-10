@@ -42,19 +42,38 @@ body {
     color: #444444;
 }
 
-.input-box {
+#username {
     border: 2px solid whitesmoke;
     border-radius: 5px;
+    overflow: hidden;
 }
 
-.input-box input {
+#username input {
     width: 90%;
     border: none;
     padding: 18px;
     outline: none;
 }
 
-.input-box:focus-within {
+#username:focus-within {
+    border: 1px solid #35aa47;
+    outline: none;
+}
+
+#password {
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#password input {
+    width: 90%;
+    border: none;
+    padding: 18px;
+    outline: none;
+}
+
+#password:focus-within {
     border: 1px solid #35aa47;
     outline: none;
 }
